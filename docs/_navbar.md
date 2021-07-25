@@ -1,0 +1,4 @@
+- [首页](/)
+- [Sweet](/sweet/)	
+- [inJSON](/injson/)
+- [测试报告](https://report.sweeter.io/#/)

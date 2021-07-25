@@ -36,8 +36,8 @@ Sweet 的愿景是构建一个寂静生长的测试生态，优势如下：
 
 #### 系统要求
 
-1. Windows 10
-2. Python 3.9
+1. Windows 10/Windows Server 2016
+2. Python 3.9 (*必须)
 
 
 #### 安装 sweet
@@ -57,8 +57,9 @@ pip install sweet.mobile
 pip install sweet.db
 pip install sweet.file
 ```
+> 备注：示例的测试用例有用到，请全部安装，后续可自行卸载
 
-#### 更新 sweet(如果需要的话)
+#### 更新 sweet (如果需要的话)
 
 ```
 pip install -U sweet

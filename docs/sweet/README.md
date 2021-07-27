@@ -47,7 +47,7 @@ Sweet 的愿景是构建一个寂静生长的测试生态，优势如下：
 
 说明
 
-- Autotest 可以通过调用 Driver 代码执行，也可以通过接口代用 Driver 执行，这意味着 Excel 用例也可以使用 Web 用例管理系统，通过接口调用 Driver 执行用例
+- Autotest 可以通过调用 Driver 代码执行，也可以通过接口调用 Driver 执行，这意味着 Excel 用例也可以使用 Web 用例管理系统，通过接口调用 Driver 执行用例
 - KeyWords 中的关键字模块可按需安装（如 `pip install sweet.web`），不使用的则无需安装，这说明关键字模块和 Driver 做了完美解耦，同时第三方开发关键字模块也相当容易（如 dubbo）,在 Sweet 中，官方和第三方关键字模块处于同等地位
 - WebServer 使用了 docsify 文档网站生成器搭建，如果采用 Web 系统，亦可很容易替换
 

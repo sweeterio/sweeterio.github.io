@@ -78,13 +78,8 @@ pip install -U sweet.web
 
 #### 下载示例项目
 
-授权用户请下载
-
 https://github.com/sweeterio/sweet_example
 
-体验版请下载
-
-https://github.com/sweeterio/test_example
 
 #### 启动 Web「测试报告」服务
 

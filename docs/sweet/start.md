@@ -12,7 +12,7 @@ SonarQube 是一款代码扫描平台，我们也使用几年有余。当初为�
 
 ## 一、用例需求分析
 
-![SonarQube](../_media/SonarQube.gif)
+![SonarQube](../_media/sonarqube.gif)
 
 1. 打开 SonarQube 首页
 2. 登录

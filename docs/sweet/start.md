@@ -160,7 +160,8 @@ setting: {'browserName': 'Chrome','headless': False} # 启动配置
 |用例编号           | 用例标题         | 前置条件 | 测试步骤 | 应用  | 操作  | 元素          | 测试数据                |
 | ---------------- | ---------------- | ------- | -------- | ---- | ---- | ------------- | ---------------------- |
 |home_001          | 登录SonarQube    | BASE    | 1        |      | 打开  | `url#sonarqube.io` | #tab=SonarQube    |
-|                  |                  |         | ^2       |      | 检查  | button#登录   |                        |                  |                  |                  |         | >3       |      | 输入  | id#login     | admin                  |
+|                  |                  |         | ^2       |      | 检查  | button#登录   |                        |
+|                  |                  |         | >3       |      | 输入  | id#login     | admin                  |
 |                  |                  |         | >4       |      | 输入  | id#password  | 123456                 |
 |                  |                  |         | >5       |      | 点击  | button#登录  |                        |
 |smell_001         | 进入异味问题页面  | SETUP   | 1        |      | 点击  | 导航#问题     |                        |
@@ -172,4 +173,4 @@ setting: {'browserName': 'Chrome','headless': False} # 启动配置
 |                  |                  |         | >5       |      | 输入  | 评论         | 历史遗留问题，不做修复    |
 |                  |                  |         | >6       |      | 点击  | 应用         |                         |
 |                  |                  |         | >7       |      | 检查  | 批量修改      | 批量修改, #wait=8       |
-| `loop_notfix`    | 循环执行notfix    |         | 1       |     | 执行  | notfix*10000         |                        |	
+| `loop_notfix`    | 循环执行notfix    |         | 1       |     | 执行  | notfix*10000         |                   |

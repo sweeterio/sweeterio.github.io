@@ -550,4 +550,4 @@ class App:                              # 约定
 
 ## 小试牛刀
 
-[小试牛刀](./start.md)
+[小试牛刀](/sweet/start.md)

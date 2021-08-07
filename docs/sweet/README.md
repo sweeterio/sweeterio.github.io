@@ -74,12 +74,21 @@ pip install -U sweet.web
 ......
 ```
 
-### 2. 启动 Web「测试报告」服务
+### 2. 下载示例项目
 
-#### 下载示例项目
+#### 正式版
 
-https://github.com/sweeterio/sweet_example
+请下载 https://github.com/sweeterio/sweet_example
 
+下载完成后，请参考 sweet_example 中的 README.md 操作
+
+#### 体验版
+
+请下载 https://github.com/sweeterio/test_example
+
+下载完成后，请参考 test_example 中的 README.md 操作
+
+### 3. 启动 Web「测试报告」服务
 
 #### 启动 Web「测试报告」服务
 
@@ -92,7 +101,7 @@ python app.py
 打开网页：http://127.0.0.1:80 查看测试报告
 
 
-### 3. 执行自动化测试示例
+### 4. 执行自动化测试示例
 
 在项目目录下（sweet_example），用命令行执行如下命令：
 

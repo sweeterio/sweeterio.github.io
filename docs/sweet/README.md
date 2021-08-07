@@ -560,3 +560,7 @@ class App:                              # 约定
 ## 小试牛刀
 
 [小试牛刀](/sweet/start.md)
+
+## 简洁之美
+
+[简洁之美](/sweet/simple.md)

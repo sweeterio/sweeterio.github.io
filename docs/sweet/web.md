@@ -393,9 +393,9 @@ visible_text 可以简写为 text：
 
 如果是多层 frame,则 frame 中要以依次写上以‘|’分割的值，如：
 
-| app   | element | by  | value | frame           |
-| ----- | ------- | --- | ----- | --------------- |
-| baidu | 查询    | id  | su    | `frame1|frame2` |
+| app   | element | by  | value | frame            |
+| ----- | ------- | --- | ----- | ---------------- |
+| baidu | 查询    | id  | su    | `frame1\|frame2` |
 
 ## 自定义 cookie
 
@@ -407,6 +407,6 @@ visible_text 可以简写为 text：
 
 cookie 可以是通过自定义函数获取
 
-| 操作 | 元素    | 测试数据                               |
-| ---  | ------- | ------------------------------------- |
-| 打开 | 百度首页 | #tab=百度,cookie=<c.get_cookie()>|
+| 操作 | 元素    | 测试数据                             |
+| ---  | ------- | ----------------------------------- |
+| 打开 | 百度首页 | #tab=百度,cookie=`<c.get_cookie()>` |

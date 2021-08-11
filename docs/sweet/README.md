@@ -561,6 +561,6 @@ class App:                              # 约定
 
 [小试牛刀](/sweet/start.md)
 
-## 简洁之美
+## 简洁是美
 
-[简洁之美](/sweet/simple.md)
+[简洁是美](/sweet/simple.md)

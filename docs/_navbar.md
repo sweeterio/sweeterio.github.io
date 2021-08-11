@@ -1,4 +1,6 @@
 - [首页](/)
-- [Sweet](/sweet/)	
+- [Sweet](/sweet/)
+- 关键字模块
+  - [web 模块](/sweet/web)
 - [inJSON](/injson/)
 - [测试报告](https://report.sweeter.io/#/)

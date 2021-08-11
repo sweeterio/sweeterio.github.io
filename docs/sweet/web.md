@@ -172,7 +172,7 @@ setting: `{'browserName': 'Chrome','headless': False}`
 | `滑动` | 滑动条 |  x=500,y=100 |
 
 
-### 8. 执行
+### 8. 执行/RUN
 
 1) 执行：用例片段
 

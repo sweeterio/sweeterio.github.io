@@ -4,8 +4,9 @@
 
 setting: `{'browserName': 'Chrome','headless': False}`
 
-browserName: Chrome/IE/Firefox
-headless: False/True
+- browserName: Chrome/IE/Firefox
+
+- headless: False/True
 
 ## 关键字
 

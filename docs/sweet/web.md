@@ -38,7 +38,7 @@ setting: `{'browserName': 'Chrome','headless': False}`
 
 取页面元素的值或属性与预期结果对比。
 
-测试数据中如果没有写 `k=v` 的方式，则默认是取元素的 `text`。
+测试数据中如果没有写 `k=v` 的方式，则默认取元素的 `text`。
 
 - 检查 text：
 
